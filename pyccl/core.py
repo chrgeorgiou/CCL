@@ -182,9 +182,12 @@ class Cosmology(object):
 
         self._build_cosmo()
 
-        # This will change to True once the "_set_background_from_arrays"
+        # This will change to True once the "set_background_from_arrays"
         # is called.
         self._background_on_input = False
+        # This will change to True once the "set_linear_power_from_arrays"
+        # is called.
+        self._linear_power_on_input = False
 
     def _build_cosmo(self):
         """Assemble all of the input data into a valid ccl_cosmology object."""

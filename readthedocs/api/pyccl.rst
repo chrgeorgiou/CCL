@@ -7,7 +7,6 @@ Subpackages
 .. toctree::
 
     pyccl.halos
-    pyccl.nl_pt
 
 Submodules
 ----------
